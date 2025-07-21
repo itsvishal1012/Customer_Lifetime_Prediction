@@ -100,8 +100,8 @@ Customer_Lifetime_Value/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Customer_Lifetime_Value.git
-   cd Customer_Lifetime_Value
+   git clone https://github.com/itsvishal1012/Customer_Lifetime_Prediction.git
+   cd Customer_Lifetime_Prediction
    ```
 
 2. Install dependencies:
@@ -152,4 +152,3 @@ Customer_Lifetime_Value/
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
