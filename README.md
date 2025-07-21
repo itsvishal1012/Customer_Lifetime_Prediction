@@ -42,7 +42,7 @@ Businesses need to understand **how valuable a customer will be over time**. By 
 
 ## 📂 Dataset
 
-- **Source:** [Kaggle or internal CRM system]
+- **Source:** [Kaggle]
 - **Features include:**
   - Customer ID
   - Frequency of purchase
@@ -60,11 +60,8 @@ Customer_Lifetime_Value/
 │
 ├── Customer_Lifetime_Value.ipynb  # Main notebook
 ├── data/
-│   └── customer_data.csv          # Dataset used
-├── images/
-│   └── visualizations.png         # Graphs and EDA
-├── models/
-│   └── clv_model.pkl              # Trained model (if exported)
+│   └── online_retail_II.xlsx          # Dataset used
+├── models
 └── README.md                      # Project documentation
 ```
 
@@ -75,7 +72,6 @@ Customer_Lifetime_Value/
 - Python (Pandas, NumPy, Scikit-learn)
 - Jupyter Notebook
 - Matplotlib, Seaborn, Plotly
-- Streamlit (for possible deployment)
 - Excel (for initial analysis or reports)
 
 ---
@@ -83,7 +79,6 @@ Customer_Lifetime_Value/
 ## 📈 Key Features & Insights
 
 - **Descriptive statistics:** via `.describe()` and visualizations
-- **Outlier detection** using boxplots
 - **Correlation analysis** via heatmap
 - **Advanced insights:**
   - High-value vs low-value segments
@@ -92,7 +87,6 @@ Customer_Lifetime_Value/
 - **Predictive model** to forecast CLV using:
   - Linear Regression
   - Random Forest
-  - Gradient Boosting
 
 ---
 
@@ -125,9 +119,9 @@ Customer_Lifetime_Value/
 
 - Best model: **Random Forest Regressor**
 - Evaluation metrics:
-  - R² Score: 0.89
-  - MAE: ~100
-  - RMSE: ~150
+  - R² Score
+  - MAE
+  - RMSE
 - Visuals: Model predictions vs actual CLV
 
 ---
